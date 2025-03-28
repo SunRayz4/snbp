@@ -62,19 +62,23 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-2 mt-0.5 text-secondary" />
-                <span className="text-gray-300">123 Education Street, Knowledge City, India</span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="h-5 w-5 mr-2 text-secondary" />
-                <span className="text-gray-300"> + 91 8087546107/8956351916                                                 </span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-2 text-secondary" />
-                <span className="text-gray-300">info@snbpinternational.edu</span>
-              </li>
-            </ul>
+  <li className="flex items-start">
+    <MapPin className="h-5 w-5 mr-2 mt-0.5 text-secondary flex-shrink-0" />
+    <span className="text-gray-300">
+      126/2A Manjri-Keshav Nagar Road, Near Shivkrushshn,
+      Mangal Karyalay, Manjri, Pune - 36.
+    </span>
+  </li>
+  <li className="flex items-center">
+    <Phone className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />
+    <span className="text-gray-300">+91 98765 43210</span>
+  </li>
+  <li className="flex items-center">
+    <Mail className="h-5 w-5 mr-2 text-secondary flex-shrink-0" />
+    <span className="text-gray-300">snbpskeshavnagar@gmail.com</span>
+  </li>
+</ul>
+
           </div>
 
           {/* Working Hours */}
